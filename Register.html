@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="icon" type="x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: linear-gradient(120deg, #3b9cdc, #bc66e1);
+        }
+        #main {
+            width: 1024px;
+            height: auto;
+            padding: auto;
+            margin: auto;
+        }
+
+        #header {
+            width: 1024px;
+            height: 200px;
+        }
+
+        #box {
+            width: 1024px;
+            height: 700px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .head1 {
+            float: right;
+            margin: 80px 36% 0 0;
+            font-family: cursive;
+        }
+
+        #box1 {
+            width: 500px;
+            height: 700px;
+            float: left;
+        }
+
+        #box2 {
+            width: 500px;
+            height: 700px;
+            background-color: rgb(247, 239, 223);
+            float: right;
+            border-radius: 70px;
+            text-align: center;
+        }
+
+        .content {
+            width: 400px;
+            height: 400px;
+            margin: 60px 0 10px 100px;
+            text-align: left;
+        }
+
+        .fn {
+            margin: 10px;
+            width: 300px;
+            height: 20px;
+            border-radius: 10px;
+        }
+
+        .an {
+            float: right;
+        }
+
+        .bt {
+            padding: 0 50px 0 50px;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+        .bt:hover {
+            color: rgb(207, 223, 238);
+        }
+
+        #box2:hover {
+            background-color: wheat;
+        }
+        .bt a:hover{
+            color:  rgb(207, 223, 238);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <img class="im" src="logo.jpg" alt="alan logo" height="100px" width="100px"
+                style="border-radius: 50px;  margin:55px 0 0 35%;">
+            <h1 class="head1">ALAN & CO</h1>
+        </div>
+        <div id="box">
+            <div id="box1">
+                <img src="img1.webp" alt="register image" width="500px" height="700px" style="border-radius: 70px;">
+            </div>
+            <div id="box2">
+                <center>
+                    <h1 style="margin-top: 60px;">SIGN UP!</h1>
+                </center>
+                <div class="content">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="fn" type="text" placeholder="First-Name" required><br>
+                    <i class="fa-solid fa-user"></i>
+                    <input class="fn" type="text" placeholder="Last-Name" required><br><br>
+                    <i class="fa-solid fa-venus-mars"></i>
+                    <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female"><label
+                        for="female">Female</label><br><br>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input class="fn" type="email" placeholder="abc@gmail.com" required><br>
+                    <i class="fa-solid fa-phone"></i>
+                    <input class="fn" type="tel" placeholder="Mobile number" required><br>
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="fn" type="password" placeholder="Set a password" required><br>
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="fn" type="password" placeholder="Confirm password" required><br><br><br><br>
+                    <input class="bt" type="reset">
+                    <input class="bt" type="submit">
+                </div>
+                <button class="bt" style="margin:20px 0 0 15px;"><a href="file:///S:/Task%201/login.html#"
+                        style="text-decoration: none;">Login</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
